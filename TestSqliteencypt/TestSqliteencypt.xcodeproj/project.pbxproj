@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1EFFF1E1BA69B40001EA25B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF1D1BA69B40001EA25B /* AppDelegate.m */; };
+		E1EFFF201BA69B40001EA25B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF1F1BA69B40001EA25B /* main.m */; };
+		E1EFFF221BA69B40001EA25B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EFFF211BA69B40001EA25B /* Images.xcassets */; };
+		E1EFFF251BA69B40001EA25B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1EFFF231BA69B40001EA25B /* MainMenu.xib */; };
+		E1EFFF311BA69B40001EA25B /* TestSqliteencyptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF301BA69B40001EA25B /* TestSqliteencyptTests.m */; };
+		E1EFFF3C1BA69B5D001EA25B /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF3A1BA69B5D001EA25B /* sqlite3.c */; };
+		E1EFFF451BA69E94001EA25B /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF3D1BA69E94001EA25B /* md5.c */; };
+		E1EFFF461BA69E94001EA25B /* padlock.c in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF3F1BA69E94001EA25B /* padlock.c */; };
+		E1EFFF471BA69E94001EA25B /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF411BA69E94001EA25B /* crypt.c */; };
+		E1EFFF481BA69E94001EA25B /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = E1EFFF431BA69E94001EA25B /* aes.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1EFFF2B1BA69B40001EA25B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1EFFF0F1BA69B40001EA25B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1EFFF161BA69B40001EA25B;
+			remoteInfo = TestSqliteencypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1EFFF171BA69B40001EA25B /* TestSqliteencypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSqliteencypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EFFF1B1BA69B40001EA25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EFFF1C1BA69B40001EA25B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1EFFF1D1BA69B40001EA25B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1EFFF1F1BA69B40001EA25B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1EFFF211BA69B40001EA25B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1EFFF241BA69B40001EA25B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E1EFFF2A1BA69B40001EA25B /* TestSqliteencyptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSqliteencyptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EFFF2F1BA69B40001EA25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1EFFF301BA69B40001EA25B /* TestSqliteencyptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSqliteencyptTests.m; sourceTree = "<group>"; };
+		E1EFFF3A1BA69B5D001EA25B /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		E1EFFF3B1BA69B5D001EA25B /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		E1EFFF3D1BA69E94001EA25B /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		E1EFFF3E1BA69E94001EA25B /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		E1EFFF3F1BA69E94001EA25B /* padlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = padlock.c; sourceTree = "<group>"; };
+		E1EFFF401BA69E94001EA25B /* padlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padlock.h; sourceTree = "<group>"; };
+		E1EFFF411BA69E94001EA25B /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
+		E1EFFF421BA69E94001EA25B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		E1EFFF431BA69E94001EA25B /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		E1EFFF441BA69E94001EA25B /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		E1EFFF491BA69EAF001EA25B /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1EFFF141BA69B40001EA25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EFFF271BA69B40001EA25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1EFFF0E1BA69B40001EA25B = {
+			isa = PBXGroup;
+			children = (
+				E1EFFF191BA69B40001EA25B /* TestSqliteencypt */,
+				E1EFFF2D1BA69B40001EA25B /* TestSqliteencyptTests */,
+				E1EFFF181BA69B40001EA25B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1EFFF181BA69B40001EA25B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1EFFF171BA69B40001EA25B /* TestSqliteencypt.app */,
+				E1EFFF2A1BA69B40001EA25B /* TestSqliteencyptTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1EFFF191BA69B40001EA25B /* TestSqliteencypt */ = {
+			isa = PBXGroup;
+			children = (
+				E1EFFF491BA69EAF001EA25B /* config.h */,
+				E1EFFF3D1BA69E94001EA25B /* md5.c */,
+				E1EFFF3E1BA69E94001EA25B /* md5.h */,
+				E1EFFF3F1BA69E94001EA25B /* padlock.c */,
+				E1EFFF401BA69E94001EA25B /* padlock.h */,
+				E1EFFF411BA69E94001EA25B /* crypt.c */,
+				E1EFFF421BA69E94001EA25B /* crypt.h */,
+				E1EFFF431BA69E94001EA25B /* aes.c */,
+				E1EFFF441BA69E94001EA25B /* aes.h */,
+				E1EFFF3A1BA69B5D001EA25B /* sqlite3.c */,
+				E1EFFF3B1BA69B5D001EA25B /* sqlite3.h */,
+				E1EFFF1C1BA69B40001EA25B /* AppDelegate.h */,
+				E1EFFF1D1BA69B40001EA25B /* AppDelegate.m */,
+				E1EFFF211BA69B40001EA25B /* Images.xcassets */,
+				E1EFFF231BA69B40001EA25B /* MainMenu.xib */,
+				E1EFFF1A1BA69B40001EA25B /* Supporting Files */,
+			);
+			path = TestSqliteencypt;
+			sourceTree = "<group>";
+		};
+		E1EFFF1A1BA69B40001EA25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1EFFF1B1BA69B40001EA25B /* Info.plist */,
+				E1EFFF1F1BA69B40001EA25B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1EFFF2D1BA69B40001EA25B /* TestSqliteencyptTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1EFFF301BA69B40001EA25B /* TestSqliteencyptTests.m */,
+				E1EFFF2E1BA69B40001EA25B /* Supporting Files */,
+			);
+			path = TestSqliteencyptTests;
+			sourceTree = "<group>";
+		};
+		E1EFFF2E1BA69B40001EA25B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1EFFF2F1BA69B40001EA25B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1EFFF161BA69B40001EA25B /* TestSqliteencypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EFFF341BA69B40001EA25B /* Build configuration list for PBXNativeTarget "TestSqliteencypt" */;
+			buildPhases = (
+				E1EFFF131BA69B40001EA25B /* Sources */,
+				E1EFFF141BA69B40001EA25B /* Frameworks */,
+				E1EFFF151BA69B40001EA25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSqliteencypt;
+			productName = TestSqliteencypt;
+			productReference = E1EFFF171BA69B40001EA25B /* TestSqliteencypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1EFFF291BA69B40001EA25B /* TestSqliteencyptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EFFF371BA69B40001EA25B /* Build configuration list for PBXNativeTarget "TestSqliteencyptTests" */;
+			buildPhases = (
+				E1EFFF261BA69B40001EA25B /* Sources */,
+				E1EFFF271BA69B40001EA25B /* Frameworks */,
+				E1EFFF281BA69B40001EA25B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1EFFF2C1BA69B40001EA25B /* PBXTargetDependency */,
+			);
+			name = TestSqliteencyptTests;
+			productName = TestSqliteencyptTests;
+			productReference = E1EFFF2A1BA69B40001EA25B /* TestSqliteencyptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1EFFF0F1BA69B40001EA25B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com;
+				TargetAttributes = {
+					E1EFFF161BA69B40001EA25B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E1EFFF291BA69B40001EA25B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E1EFFF161BA69B40001EA25B;
+					};
+				};
+			};
+			buildConfigurationList = E1EFFF121BA69B40001EA25B /* Build configuration list for PBXProject "TestSqliteencypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1EFFF0E1BA69B40001EA25B;
+			productRefGroup = E1EFFF181BA69B40001EA25B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1EFFF161BA69B40001EA25B /* TestSqliteencypt */,
+				E1EFFF291BA69B40001EA25B /* TestSqliteencyptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1EFFF151BA69B40001EA25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EFFF221BA69B40001EA25B /* Images.xcassets in Resources */,
+				E1EFFF251BA69B40001EA25B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EFFF281BA69B40001EA25B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1EFFF131BA69B40001EA25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EFFF471BA69E94001EA25B /* crypt.c in Sources */,
+				E1EFFF451BA69E94001EA25B /* md5.c in Sources */,
+				E1EFFF481BA69E94001EA25B /* aes.c in Sources */,
+				E1EFFF201BA69B40001EA25B /* main.m in Sources */,
+				E1EFFF3C1BA69B5D001EA25B /* sqlite3.c in Sources */,
+				E1EFFF461BA69E94001EA25B /* padlock.c in Sources */,
+				E1EFFF1E1BA69B40001EA25B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EFFF261BA69B40001EA25B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EFFF311BA69B40001EA25B /* TestSqliteencyptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1EFFF2C1BA69B40001EA25B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1EFFF161BA69B40001EA25B /* TestSqliteencypt */;
+			targetProxy = E1EFFF2B1BA69B40001EA25B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1EFFF231BA69B40001EA25B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1EFFF241BA69B40001EA25B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1EFFF321BA69B40001EA25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E1EFFF331BA69B40001EA25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1EFFF351BA69B40001EA25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestSqliteencypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1EFFF361BA69B40001EA25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestSqliteencypt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1EFFF381BA69B40001EA25B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestSqliteencyptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSqliteencypt.app/Contents/MacOS/TestSqliteencypt";
+			};
+			name = Debug;
+		};
+		E1EFFF391BA69B40001EA25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestSqliteencyptTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSqliteencypt.app/Contents/MacOS/TestSqliteencypt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1EFFF121BA69B40001EA25B /* Build configuration list for PBXProject "TestSqliteencypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EFFF321BA69B40001EA25B /* Debug */,
+				E1EFFF331BA69B40001EA25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EFFF341BA69B40001EA25B /* Build configuration list for PBXNativeTarget "TestSqliteencypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EFFF351BA69B40001EA25B /* Debug */,
+				E1EFFF361BA69B40001EA25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1EFFF371BA69B40001EA25B /* Build configuration list for PBXNativeTarget "TestSqliteencyptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EFFF381BA69B40001EA25B /* Debug */,
+				E1EFFF391BA69B40001EA25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1EFFF0F1BA69B40001EA25B /* Project object */;
+}
